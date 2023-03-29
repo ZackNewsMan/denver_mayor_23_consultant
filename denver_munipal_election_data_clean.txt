@@ -1,0 +1,231 @@
+"ad "
+"ads"
+"advertis"
+fees
+food
+consult
+suppl
+
+=IF(ISNUMBER(SEARCH("ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("ads",J2)), "Advertisment",IF(ISNUMBER(SEARCH("advertis",J2)), "Advertisment",IF(ISNUMBER(SEARCH("suppl",J2)), "Supplies",IF(ISNUMBER(SEARCH("consult",J2)), "Consultant",IF(ISNUMBER(SEARCH("food",J2)), "Food",IF(ISNUMBER(SEARCH("fee",J2)),"Fees", ""))))))) 
+
+
+
+=IF(ISNUMBER(SEARCH("ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("ads",J2)), "Advertisment",IF(ISNUMBER(SEARCH("advertis",J2)), "Advertisment",IF(ISNUMBER(SEARCH("suppl",J2)), "Supplies",IF(ISNUMBER(SEARCH("consult",J2)), "Consultant",IF(ISNUMBER(SEARCH("payroll",J2)), "Payroll",IF(ISNUMBER(SEARCH("media buy",J2)), "Advertisment",IF(ISNUMBER(SEARCH("call",J2)), "Phone calls",IF(ISNUMBER(SEARCH("staff",J2)), "Staffing",IF(ISNUMBER(SEARCH("food",J2)), "Food",IF(ISNUMBER(SEARCH("fee",J2)),"Fee", "")))))))))
+
+Current categories:
+Advertisment
+Consultant
+Fee
+Food
+Payroll
+Phone calls
+Staffing
+Supplies
+
+
+=IF(ISNUMBER(SEARCH("stamp",J2)), "Stamps",IF(ISNUMBER(SEARCH("yard sign",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Postage",J2)), "Stamps",IF(ISNUMBER(SEARCH("print",J2)), "Printing",IF(ISNUMBER(SEARCH("Travel",J2)), "Travel",IF(ISNUMBER(SEARCH("email",J2)), "Email",IF(ISNUMBER(SEARCH("fundrais",J2)), "Fundraising",IF(ISNUMBER(SEARCH("volunteer",J2)), "Volunteer coordination",IF(ISNUMBER(SEARCH("Meal",J2)), "Food",IF(ISNUMBER(SEARCH("Unitemized Expenditure",J2)), "Unitemized Expenditure",IF(ISNUMBER(SEARCH("contribution",J2)), "Contribution",IF(ISNUMBER(SEARCH("meeting",J2)), "Meetings",IF(ISNUMBER(SEARCH("Website",J2)),"Website", "")))))))))))
+
+=IF(ISNUMBER(SEARCH("stamp",J2)), "Stamps",IF(ISNUMBER(SEARCH("Salary",J2)), "Staffing",IF(ISNUMBER(SEARCH("security",J2)), "Staffing",IF(ISNUMBER(SEARCH("yard sign",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Postage",J2)), "Stamps",IF(ISNUMBER(SEARCH("print",J2)), "Printing",IF(ISNUMBER(SEARCH("Travel",J2)), "Travel",IF(ISNUMBER(SEARCH("email",J2)), "Email",IF(ISNUMBER(SEARCH("fundrais",J2)), "Fundraising",IF(ISNUMBER(SEARCH("volunteer",J2)), "Volunteer coordination",IF(ISNUMBER(SEARCH("Meal",J2)), "Food",IF(ISNUMBER(SEARCH("Unitemized Expenditure",J2)), "Unitemized Expenditure",IF(ISNUMBER(SEARCH("contribution",J2)), "Contribution",IF(ISNUMBER(SEARCH("meeting",J2)), "Meetings",IF(ISNUMBER(SEARCH("Website",J2)),"Website", "")))))))))))
+
+
+=IF(ISNUMBER(SEARCH("stamp",J2)), "Stamps",IF(ISNUMBER(SEARCH("shirt",J2)), "Merchandise",IF(ISNUMBER(SEARCH("aide",J2)), "Staffing",IF(ISNUMBER(SEARCH("event",J2)), "Event",IF(ISNUMBER(SEARCH("Salary",J2)), "Staffing",IF(ISNUMBER(SEARCH("security",J2)), "Staffing",IF(ISNUMBER(SEARCH("yard sign",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Postage",J2)), "Stamps",IF(ISNUMBER(SEARCH("print",J2)), "Printing",IF(ISNUMBER(SEARCH("Travel",J2)), "Travel",IF(ISNUMBER(SEARCH("email",J2)), "Email",IF(ISNUMBER(SEARCH("fundrais",J2)), "Fundraising",IF(ISNUMBER(SEARCH("volunteer",J2)), "Volunteer coordination",IF(ISNUMBER(SEARCH("Meal",J2)), "Food",IF(ISNUMBER(SEARCH("Unitemized Expenditure",J2)), "Unitemized Expenditure",IF(ISNUMBER(SEARCH("contribution",J2)), "Contribution",IF(ISNUMBER(SEARCH("meeting",J2)), "Meetings",IF(ISNUMBER(SEARCH("Website",J2)),"Website", "")))))))))))
+
+=IF(ISNUMBER(SEARCH("stamp",J2)), "Stamps",IF(ISNUMBER(SEARCH("canvass",J2)), "Canvassing",IF(ISNUMBER(SEARCH("shirt",J2)), "Merchandise",IF(ISNUMBER(SEARCH("aide",J2)), "Staffing",IF(ISNUMBER(SEARCH("event",J2)), "Event",IF(ISNUMBER(SEARCH("Salary",J2)), "Staffing",IF(ISNUMBER(SEARCH("security",J2)), "Staffing",IF(ISNUMBER(SEARCH("yard sign",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Postage",J2)), "Stamps",IF(ISNUMBER(SEARCH("print",J2)), "Printing",IF(ISNUMBER(SEARCH("Travel",J2)), "Travel",IF(ISNUMBER(SEARCH("email",J2)), "Email",IF(ISNUMBER(SEARCH("fundrais",J2)), "Fundraising",IF(ISNUMBER(SEARCH("volunteer",J2)), "Volunteer coordination",IF(ISNUMBER(SEARCH("Meal",J2)), "Food",IF(ISNUMBER(SEARCH("Unitemized Expenditure",J2)), "Unitemized Expenditure",IF(ISNUMBER(SEARCH("contribution",J2)), "Contribution",IF(ISNUMBER(SEARCH("meeting",J2)), "Meetings",IF(ISNUMBER(SEARCH("Website",J2)),"Website", "")))))))))))
+
+Categories to keep in mind for round 3 of cleaning
+
+Advertisment
+Canvassing
+Contribution
+Email
+Event
+Food
+Fundraising
+Meetings
+Merchandise
+Printing
+Staffing
+Stamps
+Travel
+Unitemized Expenditure
+Volunteer coordination
+Website
+Consultant
+Fee
+Food
+Payroll
+Phone calls
+Staffing
+Supplies
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",""))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("internet",J2)), "Computer expense",IF(ISNUMBER(SEARCH("software",J2)), "Computer expense",""))))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("transportation",J2)), "Travel",IF(ISNUMBER(SEARCH("Campaign Ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("Google",J2)), "Online expense",IF(ISNUMBER(SEARCH("domain",J2)), "Online expense",IF(ISNUMBER(SEARCH("digital",J2)), "Online expense",IF(ISNUMBER(SEARCH("internet",J2)), "Online expense",IF(ISNUMBER(SEARCH("software",J2)), "Online expense",""))))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("design",J2)), "Marketing",IF(ISNUMBER(SEARCH("sign",J2)), "Printing",IF(ISNUMBER(SEARCH("banner",J2)), "Printing",IF(ISNUMBER(SEARCH("hat",J2)), "Merchandise",IF(ISNUMBER(SEARCH("hoodi",J2)), "Merchandise",IF(ISNUMBER(SEARCH("transportation",J2)), "Travel",IF(ISNUMBER(SEARCH("Campaign Ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("Google",J2)), "Online expense",IF(ISNUMBER(SEARCH("domain",J2)), "Online expense",IF(ISNUMBER(SEARCH("digital",J2)), "Online expense",IF(ISNUMBER(SEARCH("internet",J2)), "Online expense",IF(ISNUMBER(SEARCH("software",J2)), "Online expense",""))))))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("photo",J2)), "Marketing",IF(ISNUMBER(SEARCH("video",J2)), "Marketing",IF(ISNUMBER(SEARCH("social media",J2)), "Marketing",IF(ISNUMBER(SEARCH("design",J2)), "Marketing",IF(ISNUMBER(SEARCH("sign",J2)), "Printing",IF(ISNUMBER(SEARCH("banner",J2)), "Printing",IF(ISNUMBER(SEARCH("hat",J2)), "Merchandise",IF(ISNUMBER(SEARCH("hoodi",J2)), "Merchandise",IF(ISNUMBER(SEARCH("transportation",J2)), "Travel",IF(ISNUMBER(SEARCH("Campaign Ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("Google",J2)), "Online expense",IF(ISNUMBER(SEARCH("domain",J2)), "Online expense",IF(ISNUMBER(SEARCH("Zoom",J2)), "Online expense",IF(ISNUMBER(SEARCH("web",J2)), "Online expense",IF(ISNUMBER(SEARCH("digital",J2)), "Online expense",IF(ISNUMBER(SEARCH("internet",J2)), "Online expense",IF(ISNUMBER(SEARCH("software",J2)), "Online expense",""))))))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("campaign work",J2)), "Staffing",IF(ISNUMBER(SEARCH("photo",J2)), "Marketing",IF(ISNUMBER(SEARCH("video",J2)), "Marketing",IF(ISNUMBER(SEARCH("social media",J2)), "Marketing",IF(ISNUMBER(SEARCH("design",J2)), "Marketing",IF(ISNUMBER(SEARCH("sign",J2)), "Printing",IF(ISNUMBER(SEARCH("banner",J2)), "Printing",IF(ISNUMBER(SEARCH("hat",J2)), "Merchandise",IF(ISNUMBER(SEARCH("hoodi",J2)), "Merchandise",IF(ISNUMBER(SEARCH("transportation",J2)), "Travel",IF(ISNUMBER(SEARCH("Campaign Ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("Google",J2)), "Online expense",IF(ISNUMBER(SEARCH("domain",J2)), "Online expense",IF(ISNUMBER(SEARCH("Zoom",J2)), "Online expense",IF(ISNUMBER(SEARCH("web",J2)), "Online expense",IF(ISNUMBER(SEARCH("digital",J2)), "Online expense",IF(ISNUMBER(SEARCH("internet",J2)), "Online expense",IF(ISNUMBER(SEARCH("software",J2)), "Online expense",""))))))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("literature",J2)), "Printing",IF(ISNUMBER(SEARCH("campaign work",J2)), "Staffing",IF(ISNUMBER(SEARCH("photo",J2)), "Marketing",IF(ISNUMBER(SEARCH("video",J2)), "Marketing",IF(ISNUMBER(SEARCH("social media",J2)), "Marketing",IF(ISNUMBER(SEARCH("design",J2)), "Marketing",IF(ISNUMBER(SEARCH("sign",J2)), "Printing",IF(ISNUMBER(SEARCH("banner",J2)), "Printing",IF(ISNUMBER(SEARCH("hat",J2)), "Merchandise",IF(ISNUMBER(SEARCH("hoodi",J2)), "Merchandise",IF(ISNUMBER(SEARCH("transportation",J2)), "Travel",IF(ISNUMBER(SEARCH("Campaign Ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("Google",J2)), "Online expense",IF(ISNUMBER(SEARCH("domain",J2)), "Online expense",IF(ISNUMBER(SEARCH("Zoom",J2)), "Online expense",IF(ISNUMBER(SEARCH("web",J2)), "Online expense",IF(ISNUMBER(SEARCH("digital",J2)), "Online expense",IF(ISNUMBER(SEARCH("internet",J2)), "Online expense",IF(ISNUMBER(SEARCH("software",J2)), "Online expense",""))))))))))
+
+=IF(ISNUMBER(SEARCH("Parking",J2)), "Parking",IF(ISNUMBER(SEARCH("voter contact",J2)), "Canvassing",IF(ISNUMBER(SEARCH("voter outreach",J2)), "Canvassing",IF(ISNUMBER(SEARCH("signature",J2)), "Canvassing",IF(ISNUMBER(SEARCH("literature",J2)), "Printing",IF(ISNUMBER(SEARCH("campaign work",J2)), "Staffing",IF(ISNUMBER(SEARCH("photo",J2)), "Marketing",IF(ISNUMBER(SEARCH("video",J2)), "Marketing",IF(ISNUMBER(SEARCH("social media",J2)), "Marketing",IF(ISNUMBER(SEARCH("design",J2)), "Marketing",IF(ISNUMBER(SEARCH("sign",J2)), "Printing",IF(ISNUMBER(SEARCH("banner",J2)), "Printing",IF(ISNUMBER(SEARCH("hat",J2)), "Merchandise",IF(ISNUMBER(SEARCH("hoodi",J2)), "Merchandise",IF(ISNUMBER(SEARCH("transportation",J2)), "Travel",IF(ISNUMBER(SEARCH("Campaign Ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Marketing",J2)), "Marketing",IF(ISNUMBER(SEARCH("Ad ",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Campaign manage",J2)), "Staffing", IF(ISNUMBER(SEARCH("donation",J2)), "Donation",IF(ISNUMBER(SEARCH("outreach",J2)), "Outreach",IF(ISNUMBER(SEARCH("mail",J2)), "Mail",IF(ISNUMBER(SEARCH("Professional Services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign advisor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Canvasing",J2)), "Canvassing",IF(ISNUMBER(SEARCH("Google",J2)), "Online expense",IF(ISNUMBER(SEARCH("domain",J2)), "Online expense",IF(ISNUMBER(SEARCH("Zoom",J2)), "Online expense",IF(ISNUMBER(SEARCH("web",J2)), "Online expense",IF(ISNUMBER(SEARCH("digital",J2)), "Online expense",IF(ISNUMBER(SEARCH("internet",J2)), "Online expense",IF(ISNUMBER(SEARCH("software",J2)), "Online expense",""))))))))))
+
+Advertisment
+Canvassing
+Donation
+Mail
+Marketing
+Merchandise
+Online expense
+Outreach
+Parking
+Printing
+Staffing
+Travel
+Advertisment
+Canvassing
+Contribution
+Email
+Event
+Food
+Fundraising
+Meetings
+Merchandise
+Printing
+Staffing
+Stamps
+Travel
+Unitemized Expenditure
+Volunteer coordination
+Website
+Consultant
+Fee
+Food
+Payroll
+Phone calls
+Staffing
+Supplies
+Advertisment
+Fee
+Online expense
+Phone calls
+Printing
+Refund
+Rent
+Research
+Staffing
+
+
+Online expense
+
+Batch 4:	
+
+=IF(ISNUMBER(SEARCH("storage",J2)),"Supplies",IF(ISNUMBER(SEARCH("Finance Director",J2)),"Staffing",IF(ISNUMBER(SEARCH("reiumbursement",J2)), "Reiumbursement",IF(ISNUMBER(SEARCH("business card",J2)), "Printing",IF(ISNUMBER(SEARCH("Adobe",J2)), "Online expense",IF(ISNUMBER(SEARCH("Administrative",J2)), "Staffing",IF(ISNUMBER(SEARCH("bank",J2)), "Fee",IF(ISNUMBER(SEARCH("ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Online Services",J2)), "Online expense",IF(ISNUMBER(SEARCH("Online Subscription",J2)), "Online expense",IF(ISNUMBER(SEARCH("Research",J2)), "Research",IF(ISNUMBER(SEARCH("Service Charge",J2)), "Fee",IF(ISNUMBER(SEARCH("Bank service charge,",J2)), "Fee",IF(ISNUMBER(SEARCH("Credit Card Processing",J2)), "Fee",IF(ISNUMBER(SEARCH("text",J2)), "Phone calls",IF(ISNUMBER(SEARCH("phone",J2)), "Phone calls",IF(ISNUMBER(SEARCH("Contract",J2)), "Staffing",IF(ISNUMBER(SEARCH("Contract",J2)), "Staffing",IF(ISNUMBER(SEARCH("Petition Contractor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Legal services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign support",J2)), "Staffing", "")))))))))))
+
+
+=IF(ISNUMBER(SEARCH("Finance Director",J2)),"Staffing",IF(ISNUMBER(SEARCH("refund",J2)),"Refund",IF(ISNUMBER(SEARCH("Translation service",J2)),"Staffing",IF(ISNUMBER(SEARCH("Public Relations",J2)),"Staffing",IF(ISNUMBER(SEARCH("Accounting",J2)),"Staffing",IF(ISNUMBER(SEARCH("Director",J2)),"Staffing",IF(ISNUMBER(SEARCH("reiumbursement",J2)), "Reiumbursement",IF(ISNUMBER(SEARCH("business card",J2)), "Printing",IF(ISNUMBER(SEARCH("Adobe",J2)), "Online expense",IF(ISNUMBER(SEARCH("Administrative",J2)), "Staffing",IF(ISNUMBER(SEARCH("bank",J2)), "Fee",IF(ISNUMBER(SEARCH("ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Online Services",J2)), "Online expense",IF(ISNUMBER(SEARCH("Online Subscription",J2)), "Online expense",IF(ISNUMBER(SEARCH("Research",J2)), "Research",IF(ISNUMBER(SEARCH("Service Charge",J2)), "Fee",IF(ISNUMBER(SEARCH("Bank service charge,",J2)), "Fee",IF(ISNUMBER(SEARCH("Credit Card Processing",J2)), "Fee",IF(ISNUMBER(SEARCH("text",J2)), "Phone calls",IF(ISNUMBER(SEARCH("phone",J2)), "Phone calls",IF(ISNUMBER(SEARCH("Contract",J2)), "Staffing",IF(ISNUMBER(SEARCH("Contract",J2)), "Staffing",IF(ISNUMBER(SEARCH("Petition Contractor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Legal services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign support",J2)), "Staffing", "")))))))))))
+
+=IF(ISNUMBER(SEARCH("Finance Director",J2)),"Staffing",IF(ISNUMBER(SEARCH("rent",J2)),"Rent",IF(ISNUMBER(SEARCH("Reimbursment",J2)),"Refund",IF(ISNUMBER(SEARCH("reiumbursement",J2)),"Refund",IF(ISNUMBER(SEARCH("refund",J2)),"Refund",IF(ISNUMBER(SEARCH("Translation service",J2)),"Staffing",IF(ISNUMBER(SEARCH("Public Relations",J2)),"Staffing",IF(ISNUMBER(SEARCH("Accounting",J2)),"Staffing",IF(ISNUMBER(SEARCH("Director",J2)),"Staffing",IF(ISNUMBER(SEARCH("reiumbursement",J2)), "Reiumbursement",IF(ISNUMBER(SEARCH("business card",J2)), "Printing",IF(ISNUMBER(SEARCH("Adobe",J2)), "Online expense",IF(ISNUMBER(SEARCH("Administrative",J2)), "Staffing",IF(ISNUMBER(SEARCH("bank",J2)), "Fee",IF(ISNUMBER(SEARCH("ad",J2)), "Advertisment",IF(ISNUMBER(SEARCH("Online Services",J2)), "Online expense",IF(ISNUMBER(SEARCH("Online Subscription",J2)), "Online expense",IF(ISNUMBER(SEARCH("Research",J2)), "Research",IF(ISNUMBER(SEARCH("Service Charge",J2)), "Fee",IF(ISNUMBER(SEARCH("Bank service charge,",J2)), "Fee",IF(ISNUMBER(SEARCH("Credit Card Processing",J2)), "Fee",IF(ISNUMBER(SEARCH("text",J2)), "Phone calls",IF(ISNUMBER(SEARCH("phone",J2)), "Phone calls",IF(ISNUMBER(SEARCH("Contract",J2)), "Staffing",IF(ISNUMBER(SEARCH("Contract",J2)), "Staffing",IF(ISNUMBER(SEARCH("Petition Contractor",J2)), "Staffing",IF(ISNUMBER(SEARCH("Legal services",J2)), "Staffing",IF(ISNUMBER(SEARCH("Campaign support",J2)), "Staffing", "")))))))))))
+
+Batch 5:
+
+=IF(ISNUMBER(SEARCH("cater",J2)),"Food",IF(ISNUMBER(SEARCH("Snack",J2)),"Food",IF(ISNUMBER(SEARCH("Breakfast",J2)),"Food",IF(ISNUMBER(SEARCH("promotional materials",J2)),"Printing",IF(ISNUMBER(SEARCH("payment process",J2)),"Fee",IF(ISNUMBER(SEARCH("sticker",J2)),"Merchandise",IF(ISNUMBER(SEARCH("shopping bag",J2)),"Merchandise",IF(ISNUMBER(SEARCH("apparel",J2)),"Merchandise",IF(ISNUMBER(SEARCH("antivirus",J2)),"Online expense",IF(ISNUMBER(SEARCH("IT",J2)),"Online expense",IF(ISNUMBER(SEARCH("app",J2)),"Online expense",IF(ISNUMBER(SEARCH("subscription",J2)),"Online expense",IF(ISNUMBER(SEARCH("Campaign Mgr",J2)),"Staffing",IF(ISNUMBER(SEARCH("check",J2)),"Checks",IF(ISNUMBER(SEARCH("Reimbursement",J2)),"Refund", "")))))))
+
+for event category, include:
+party -- included
+prize -- included
+convention -- included
+conference -- included
+sponsor -- included
+ticket -- included
+reception -- included
+luncheon -- included
+auction -- included
+entertainment -- included
+booth -- included
+
+gift -- included
+
+fee: 
+tax -- included
+
+Need to go back through and add IT expenses to Online Expenses category. Excel misinterpreting it as "it" even within words and is flagging it inappropriately
+
+=IF(ISNUMBER(SEARCH("booth",J2)),"Event",IF(ISNUMBER(SEARCH("entertainment",J2)),"Event",IF(ISNUMBER(SEARCH("auction",J2)),"Event",IF(ISNUMBER(SEARCH("luncheon",J2)),"Event",IF(ISNUMBER(SEARCH("reception",J2)),"Event",IF(ISNUMBER(SEARCH("ticket",J2)),"Event",IF(ISNUMBER(SEARCH("sponsor",J2)),"Event",IF(ISNUMBER(SEARCH("conference",J2)),"Event",IF(ISNUMBER(SEARCH("convention",J2)),"Event",IF(ISNUMBER(SEARCH("prize",J2)),"Event",IF(ISNUMBER(SEARCH("party",J2)),"Event",IF(ISNUMBER(SEARCH("billboard",J2)),"Advertising",IF(ISNUMBER(SEARCH("flower",J2)),"Flowers",IF(ISNUMBER(SEARCH("membership",J2)),"Membership",IF(ISNUMBER(SEARCH("tax",J2)),"Fee",IF(ISNUMBER(SEARCH("gift",J2)),"Gift",IF(ISNUMBER(SEARCH("cater",J2)),"Food",IF(ISNUMBER(SEARCH("Snack",J2)),"Food",IF(ISNUMBER(SEARCH("Breakfast",J2)),"Food",IF(ISNUMBER(SEARCH("promotional materials",J2)),"Printing",IF(ISNUMBER(SEARCH("payment process",J2)),"Fee",IF(ISNUMBER(SEARCH("sticker",J2)),"Merchandise",IF(ISNUMBER(SEARCH("shopping bag",J2)),"Merchandise",IF(ISNUMBER(SEARCH("apparel",J2)),"Merchandise",IF(ISNUMBER(SEARCH("antivirus",J2)),"Online expense",IF(ISNUMBER(SEARCH("app",J2)),"Online expense",IF(ISNUMBER(SEARCH("subscription",J2)),"Online expense",IF(ISNUMBER(SEARCH("Campaign Mgr",J2)),"Staffing",IF(ISNUMBER(SEARCH("check",J2)),"Checks",IF(ISNUMBER(SEARCH("Reimbursement",J2)),"Refund", "")))))))
+
+Batch 5 revisions:
+
+Commuications
+
+=IF(ISNUMBER(SEARCH("services",J2)),"Staffing",IF(ISNUMBER(SEARCH("understand",J2)),"Research",IF(ISNUMBER(SEARCH("eCommerce",J2)),"Fee",IF(ISNUMBER(SEARCH("refreshment",J2)),"Food",IF(ISNUMBER(SEARCH("class",J2)),"Research",IF(ISNUMBER(SEARCH("Commuications",J2)),"Advertisment",IF(ISNUMBER(SEARCH("copying",J2)),"Printing",IF(ISNUMBER(SEARCH("writer",J2)),"Staffing",IF(ISNUMBER(SEARCH("petition",J2)),"Staffing",IF(ISNUMBER(SEARCH("policy",J2)),"Research",IF(ISNUMBER(SEARCH("message",J2)),"Advertisment",IF(ISNUMBER(SEARCH("flyer",J2)),"Printing",IF(ISNUMBER(SEARCH("map",J2)),"Research",IF(ISNUMBER(SEARCH("strategy",J2)),"Research",IF(ISNUMBER(SEARCH("ink",J2)),"Printing",IF(ISNUMBER(SEARCH("card",J2)),"Printing",IF(ISNUMBER(SEARCH("stationary",J2)),"Printing",IF(ISNUMBER(SEARCH("communication",J2)),"Advertising",IF(ISNUMBER(SEARCH("table",J2)),"Event",IF(ISNUMBER(SEARCH("data",J2)),"Research",IF(ISNUMBER(SEARCH("voter file",J2)),"Research",IF(ISNUMBER(SEARCH("VAN",J2)),"Research",IF(ISNUMBER(SEARCH("production",J2)),"Advertisment",IF(ISNUMBER(SEARCH("flyer distribution",J2)),"Staffing",IF(ISNUMBER(SEARCH("treasurer",J2)),"Staffing",IF(ISNUMBER(SEARCH("reservation",J2)),"Event",IF(ISNUMBER(SEARCH("campaign kickoff",J2)),"Event",IF(ISNUMBER(SEARCH("permit",J2)),"Event",IF(ISNUMBER(SEARCH("buttons",J2)),"Merchandise",IF(ISNUMBER(SEARCH("campaign kickoff",J2)),"Event",IF(ISNUMBER(SEARCH("thank you card",J2)),"Printing",IF(ISNUMBER(SEARCH("merchand",J2)),"Merchandise",IF(ISNUMBER(SEARCH("Decoration",J2)),"Event",IF(ISNUMBER(SEARCH("booth",J2)),"Event",IF(ISNUMBER(SEARCH("entertainment",J2)),"Event",IF(ISNUMBER(SEARCH("auction",J2)),"Event",IF(ISNUMBER(SEARCH("luncheon",J2)),"Event",IF(ISNUMBER(SEARCH("reception",J2)),"Event",IF(ISNUMBER(SEARCH("ticket",J2)),"Event",IF(ISNUMBER(SEARCH("sponsor",J2)),"Event",IF(ISNUMBER(SEARCH("conference",J2)),"Event",IF(ISNUMBER(SEARCH("convention",J2)),"Event",IF(ISNUMBER(SEARCH("prize",J2)),"Event",IF(ISNUMBER(SEARCH("party",J2)),"Event",IF(ISNUMBER(SEARCH("billboard",J2)),"Advertisment",IF(ISNUMBER(SEARCH("flower",J2)),"Flowers",IF(ISNUMBER(SEARCH("membership",J2)),"Membership",IF(ISNUMBER(SEARCH("tax",J2)),"Fee",IF(ISNUMBER(SEARCH("gift",J2)),"Gift",IF(ISNUMBER(SEARCH("cater",J2)),"Food",IF(ISNUMBER(SEARCH("Snack",J2)),"Food",IF(ISNUMBER(SEARCH("Breakfast",J2)),"Food",IF(ISNUMBER(SEARCH("promotional materials",J2)),"Printing",IF(ISNUMBER(SEARCH("payment process",J2)),"Fee",IF(ISNUMBER(SEARCH("sticker",J2)),"Merchandise",IF(ISNUMBER(SEARCH("shopping bag",J2)),"Merchandise",IF(ISNUMBER(SEARCH("apparel",J2)),"Merchandise",IF(ISNUMBER(SEARCH("antivirus",J2)),"Online expense",IF(ISNUMBER(SEARCH("app",J2)),"Online expense",IF(ISNUMBER(SEARCH("subscription",J2)),"Online expense",IF(ISNUMBER(SEARCH("Campaign Mgr",J2)),"Staffing",IF(ISNUMBER(SEARCH("check",J2)),"Checks",IF(ISNUMBER(SEARCH("Reimbursement",J2)),"Refund", "")))))))
+
+Batch 6 (capped at 64 nested functions):
+
+Supplies:
+
+evite -- 
+
+online storage
+
+=IF(ISNUMBER(SEARCH("number pool",J2)),"Phone calls",IF(ISNUMBER(SEARCH("tape",J2)),"Supplies",IF(ISNUMBER(SEARCH("Letters",J2)),"Supplies",IF(ISNUMBER(SEARCH("survey",J2)),"Research",IF(ISNUMBER(SEARCH("coaching",J2)),"Staffing",IF(ISNUMBER(SEARCH("laptop",J2)),"Supplies",IF(ISNUMBER(SEARCH("paper",J2)),"Supplies",IF(ISNUMBER(SEARCH("online storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("translation",J2)),"Staffing",IF(ISNUMBER(SEARCH("media",J2)),"Advertisment",IF(ISNUMBER(SEARCH("fuel",J2)),"Travel",IF(ISNUMBER(SEARCH("Gas",J2)),"Travel",IF(ISNUMBER(SEARCH("Training",J2)),"Research",IF(ISNUMBER(SEARCH("Education",J2)),"Research",IF(ISNUMBER(SEARCH("PO Box",J2)),"Supplies",IF(ISNUMBER(SEARCH("Copies",J2)),"Printing",IF(ISNUMBER(SEARCH("poll",J2)),"Staffing",IF(ISNUMBER(SEARCH("Priniting",J2)),"Printing",IF(ISNUMBER(SEARCH("Accounting",J2)),"Staffing",IF(ISNUMBER(SEARCH("Bookeeping",J2)),"Staffing",IF(ISNUMBER(SEARCH("field",J2)),"Staffing",IF(ISNUMBER(SEARCH("workspace",J2)),"Supplies",IF(ISNUMBER(SEARCH("couch",J2)),"Supplies",IF(ISNUMBER(SEARCH("chair",J2)),"Supplies",IF(ISNUMBER(SEARCH("legal",J2)),"Staffing",IF(ISNUMBER(SEARCH("presentation",J2)),"Event",IF(ISNUMBER(SEARCH("expends",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("Technology",J2)),"Supplies",IF(ISNUMBER(SEARCH("tech",J2)),"Supplies",IF(ISNUMBER(SEARCH("charity",J2)),"Donation",IF(ISNUMBER(SEARCH("online",J2)),"Online expense",IF(ISNUMBER(SEARCH("Canva",J2)),"Online expense",IF(ISNUMBER(SEARCH("paper",J2)),"Supplies",IF(ISNUMBER(SEARCH("Need",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("Needs",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("fund raising",J2)),"Fundraising",IF(ISNUMBER(SEARCH("promo",J2)),"Advertisment",IF(ISNUMBER(SEARCH("Expense Misc",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("salar",J2)),"Staffing",IF(ISNUMBER(SEARCH("wage",J2)),"Staffing",IF(ISNUMBER(SEARCH("strategist",J2)),"Staffing",IF(ISNUMBER(SEARCH("name tag",J2)),"Printing",IF(ISNUMBER(SEARCH("promotional",J2)),"Advertisment",IF(ISNUMBER(SEARCH("media",J2)),"Advertisment",IF(ISNUMBER(SEARCH("materials",J2)),"Printing",IF(ISNUMBER(SEARCH("material",J2)),"Printing",IF(ISNUMBER(SEARCH("dinner",J2)),"Event",IF(ISNUMBER(SEARCH("golf",J2)),"Event",IF(ISNUMBER(SEARCH("contibution",J2)),"Fundraising",IF(ISNUMBER(SEARCH("editing",J2)),"Advertisment",IF(ISNUMBER(SEARCH("rubber band",J2)),"Supplies",IF(ISNUMBER(SEARCH("bookkeeping",J2)),"Staffing",IF(ISNUMBER(SEARCH("fyer",J2)),"Printing",IF(ISNUMBER(SEARCH("voter",J2)),"Research",IF(ISNUMBER(SEARCH("TV",J2)),"Advertisment",IF(ISNUMBER(SEARCH("announcement",J2)),"Event",IF(ISNUMBER(SEARCH("kick off",J2)),"Event",IF(ISNUMBER(SEARCH("insurance",J2)),"Insurance",IF(ISNUMBER(SEARCH("office",J2)),"Supplies",IF(ISNUMBER(SEARCH("name tag",J2)),"Printing", ""))))))))
+
+
+Batch 7:
+
+=IF(ISNUMBER(SEARCH("Misc. Items for campaign",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("envelopes",J2)),"Supplies",IF(ISNUMBER(SEARCH("storage",J2)),"Supplies",IF(ISNUMBER(SEARCH("mileage",J2)),"Travel",IF(ISNUMBER(SEARCH("lodging",J2)),"Travel",IF(ISNUMBER(SEARCH("hotel",J2)),"Travel",IF(ISNUMBER(SEARCH("lit",J2)),"Printing",IF(ISNUMBER(SEARCH("Campaign Managment",J2)),"Staffing",IIF(ISNUMBER(SEARCH("bus",J2)),"Travel",IF(ISNUMBER(SEARCH("airfare",J2)),"Travel",IF(ISNUMBER(SEARCH("Cloud Storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("Cloud Storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("lighting",J2)),"Supplies",IF(ISNUMBER(SEARCH("hotel",J2)),"Travel",IF(ISNUMBER(SEARCH("lodging",J2)),"Travel",IF(ISNUMBER(SEARCH("markers",J2)),"Supplies",IF(ISNUMBER(SEARCH("water containers",J2)),"Supplies",IF(ISNUMBER(SEARCH("poster stand",J2)),"Supplies", ""))))))
+
+
+
+
+=IF(ISNUMBER(SEARCH("loan",J2)),"Loan",IF(ISNUMBER(SEARCH("table",J2)),"Event",IF(ISNUMBER(SEARCH("campaign finance compliance",J2)),"Staffing",IF(ISNUMBER(SEARCH("birthday",J2)),"Event",IF(ISNUMBER(SEARCH("Community organizing",J2)),"Staffing",IF(ISNUMBER(SEARCH("brochures",J2)),"Printing",IF(ISNUMBER(SEARCH("pizza",J2)),"Event",IF(ISNUMBER(SEARCH("litigation",J2)),"Staffing",IF(ISNUMBER(SEARCH("campaign assistance",J2)),"Staffing",IF(ISNUMBER(SEARCH("car",J2)),"Travel",IF(ISNUMBER(SEARCH("DJ",J2)),"Event",IF(ISNUMBER(SEARCH("cellular",J2)),"Phone calls",IF(ISNUMBER(SEARCH("election Night",J2)),"Event",IF(ISNUMBER(SEARCH("Election Night",J2)),"Event",IF(ISNUMBER(SEARCH("label",J2)),"Printing",IF(ISNUMBER(SEARCH("Suscription",J2)),"Supplies",IF(ISNUMBER(SEARCH("balloon",J2)),"Supplies",IF(ISNUMBER(SEARCH("virus",J2)),"Online expense",IF(ISNUMBER(SEARCH("graphics",J2)),"Online expense",IF(ISNUMBER(SEARCH("graphic",J2)),"Online expense",IF(ISNUMBER(SEARCH("Book",J2)),"Supplies",IF(ISNUMBER(SEARCH("trash bag",J2)),"Supplies",IF(ISNUMBER(SEARCH("P.O. Box",J2)),"Supplies",IF(ISNUMBER(SEARCH("Accountant",J2)),"Staffing",IF(ISNUMBER(SEARCH("Campaign Infrastructure",J2)),"Consultant",IF(ISNUMBER(SEARCH("fine",J2)),"Fee",IF(ISNUMBER(SEARCH("dropbox",J2)),"Online expense",IF(ISNUMBER(SEARCH("Service Invoice",J2)),"Online expense",IF(ISNUMBER(SEARCH("cheese",J2)),"Food",IF(ISNUMBER(SEARCH("nametag",J2)),"Supplies",IF(ISNUMBER(SEARCH("Postal Box",J2)),"Supplies",IF(ISNUMBER(SEARCH("button",J2)),"Supplies",IF(ISNUMBER(SEARCH("poster",J2)),"Supplies",IF(ISNUMBER(SEARCH("monitor",J2)),"Supplies",IF(ISNUMBER(SEARCH("furniture",J2)),"Supplies",IF(ISNUMBER(SEARCH("mask",J2)),"Supplies",IF(ISNUMBER(SEARCH("hustle",J2)),"Staffing",IF(ISNUMBER(SEARCH("lunch",J2)),"Event",IF(ISNUMBER(SEARCH("music",J2)),"Event",IF(ISNUMBER(SEARCH("Meet & greet",J2)),"Event",IF(ISNUMBER(SEARCH("Meet and greet",J2)),"Event",IF(ISNUMBER(SEARCH("robodial",J2)),"Phone calls",IF(ISNUMBER(SEARCH("door hangers",J2)),"Supplies",IF(ISNUMBER(SEARCH("door hanger",J2)),"Supplies",IF(ISNUMBER(SEARCH("Tomato",J2)),"Event",IF(ISNUMBER(SEARCH("Misc. Items for campaign",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("envelopes",J2)),"Supplies",IF(ISNUMBER(SEARCH("storage",J2)),"Supplies",IF(ISNUMBER(SEARCH("mileage",J2)),"Travel",IF(ISNUMBER(SEARCH("lodging",J2)),"Travel",IF(ISNUMBER(SEARCH("hotel",J2)),"Travel",IF(ISNUMBER(SEARCH("lit",J2)),"Printing",IF(ISNUMBER(SEARCH("Campaign Managment",J2)),"Staffing",IF(ISNUMBER(SEARCH("bus",J2)),"Travel",IF(ISNUMBER(SEARCH("airfare",J2)),"Travel",IF(ISNUMBER(SEARCH("Cloud Storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("Cloud Storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("lighting",J2)),"Supplies",IF(ISNUMBER(SEARCH("hotel",J2)),"Travel",IF(ISNUMBER(SEARCH("lodging",J2)),"Travel",IF(ISNUMBER(SEARCH("markers",J2)),"Supplies",IF(ISNUMBER(SEARCH("water containers",J2)),"Supplies",IF(ISNUMBER(SEARCH("poster stand",J2)),"Supplies",""))))))))))))))))))
+
+
+=IF(ISNUMBER(SEARCH("loan",J2)),"Loan",IF(ISNUMBER(SEARCH("table",J2)),"Event",IF(ISNUMBER(SEARCH("campaign finance compliance",J2)),"Staffing",IF(ISNUMBER(SEARCH("birthday",J2)),"Event",IF(ISNUMBER(SEARCH("Community organizing",J2)),"Staffing",IF(ISNUMBER(SEARCH("brochures",J2)),"Printing",IF(ISNUMBER(SEARCH("pizza",J2)),"Event",IF(ISNUMBER(SEARCH("litigation",J2)),"Staffing",IF(ISNUMBER(SEARCH("campaign assistance",J2)),"Staffing",IF(ISNUMBER(SEARCH("car",J2)),"Travel",IF(ISNUMBER(SEARCH("DJ",J2)),"Event",IF(ISNUMBER(SEARCH("cellular",J2)),"Phone calls",IF(ISNUMBER(SEARCH("election Night",J2)),"Event",IF(ISNUMBER(SEARCH("Election Night",J2)),"Event",IF(ISNUMBER(SEARCH("label",J2)),"Printing",IF(ISNUMBER(SEARCH("Suscription",J2)),"Supplies",IF(ISNUMBER(SEARCH("balloon",J2)),"Supplies",IF(ISNUMBER(SEARCH("virus",J2)),"Online expense",IF(ISNUMBER(SEARCH("graphics",J2)),"Online expense",IF(ISNUMBER(SEARCH("graphic",J2)),"Online expense",IF(ISNUMBER(SEARCH("Book",J2)),"Supplies",IF(ISNUMBER(SEARCH("trash bag",J2)),"Supplies",IF(ISNUMBER(SEARCH("P.O. Box",J2)),"Supplies",IF(ISNUMBER(SEARCH("Accountant",J2)),"Staffing",IF(ISNUMBER(SEARCH("Campaign Infrastructure",J2)),"Consultant",IF(ISNUMBER(SEARCH("fine",J2)),"Fee",IF(ISNUMBER(SEARCH("dropbox",J2)),"Online expense",IF(ISNUMBER(SEARCH("Service Invoice",J2)),"Online expense",IF(ISNUMBER(SEARCH("cheese",J2)),"Food",IF(ISNUMBER(SEARCH("nametag",J2)),"Supplies",IF(ISNUMBER(SEARCH("Postal Box",J2)),"Supplies",IF(ISNUMBER(SEARCH("button",J2)),"Supplies",IF(ISNUMBER(SEARCH("poster",J2)),"Supplies",IF(ISNUMBER(SEARCH("monitor",J2)),"Supplies",IF(ISNUMBER(SEARCH("furniture",J2)),"Supplies",IF(ISNUMBER(SEARCH("mask",J2)),"Supplies",IF(ISNUMBER(SEARCH("hustle",J2)),"Staffing",IF(ISNUMBER(SEARCH("lunch",J2)),"Event",IF(ISNUMBER(SEARCH("music",J2)),"Event",IF(ISNUMBER(SEARCH("Meet & greet",J2)),"Event",IF(ISNUMBER(SEARCH("Meet and greet",J2)),"Event",IF(ISNUMBER(SEARCH("robodial",J2)),"Phone calls",IF(ISNUMBER(SEARCH("door hangers",J2)),"Supplies",IF(ISNUMBER(SEARCH("door hanger",J2)),"Supplies",IF(ISNUMBER(SEARCH("Tomato",J2)),"Event",IF(ISNUMBER(SEARCH("Misc. Items for campaign",J2)),"Unitemized Expenditure",IF(ISNUMBER(SEARCH("envelopes",J2)),"Supplies",IF(ISNUMBER(SEARCH("storage",J2)),"Supplies",IF(ISNUMBER(SEARCH("mileage",J2)),"Travel",IF(ISNUMBER(SEARCH("lodging",J2)),"Travel",IF(ISNUMBER(SEARCH("hotel",J2)),"Travel",IF(ISNUMBER(SEARCH("lit",J2)),"Printing",IF(ISNUMBER(SEARCH("Campaign Managment",J2)),"Staffing",IF(ISNUMBER(SEARCH("bus",J2)),"Travel",IF(ISNUMBER(SEARCH("airfare",J2)),"Travel",IF(ISNUMBER(SEARCH("Cloud Storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("Cloud Storage",J2)),"Online expense",IF(ISNUMBER(SEARCH("lighting",J2)),"Supplies",IF(ISNUMBER(SEARCH("hotel",J2)),"Travel",IF(ISNUMBER(SEARCH("lodging",J2)),"Travel",IF(ISNUMBER(SEARCH("markers",J2)),"Supplies",IF(ISNUMBER(SEARCH("water containers",J2)),"Supplies",IF(ISNUMBER(SEARCH("poster stand",J2)),"Supplies","")))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
+
+Batch 8:
+
+UPS backup power
+
+
+=IF(ISNUMBER(SEARCH("UPS backup",J2)),"Supplies",IF(ISNUMBER(SEARCH("Focus groups",J2)),"Consultant",IF(ISNUMBER(SEARCH("Secretary of State",J2)),"Fee",IF(ISNUMBER(SEARCH("Account Maintenance",J2)),"Fee",IF(ISNUMBER(SEARCH("CRM",J2)),"Online expense",IF(ISNUMBER(SEARCH("M&E",J2)),"Food",IF(ISNUMBER(SEARCH("Reiumburse",J2)),"Reiumbursement",IF(ISNUMBER(SEARCH("Notary",J2)),"Staffing",IF(ISNUMBER(SEARCH("Paypal",J2)),"Fee",IF(ISNUMBER(SEARCH("Pay pal",J2)),"Fee",IF(ISNUMBER(SEARCH("Gala",J2)),"Event",IF(ISNUMBER(SEARCH("Gala",J2)),"Event",IF(ISNUMBER(SEARCH("G-Suite",J2)),"Online expense",IF(ISNUMBER(SEARCH("GSuite",J2)),"Online expense",IF(ISNUMBER(SEARCH("CC procesing",J2)),"Fee",IF(ISNUMBER(SEARCH("dancers",J2)),"Event",IF(ISNUMBER(SEARCH("retreat",J2)),"Event",IF(ISNUMBER(SEARCH("open house",J2)),"Event",IF(ISNUMBER(SEARCH("hosting",J2)),"Event",IF(ISNUMBER(SEARCH("potluck",J2)),"Event",IF(ISNUMBER(SEARCH("Newsletter",J2)),"Marketing",IF(ISNUMBER(SEARCH("CC Processing",J2)),"Fee",IF(ISNUMBER(SEARCH("Professional Svcs",J2)),"Staffing",IF(ISNUMBER(SEARCH("compliance",J2)),"Staffing",IF(ISNUMBER(SEARCH("city council",J2)),"Donation",IF(ISNUMBER(SEARCH("team",J2)),"Staffing",IF(ISNUMBER(SEARCH("Transporation",J2)),"Travel",IF(ISNUMBER(SEARCH("transport",J2)),"Travel",IF(ISNUMBER(SEARCH("Computer",J2)),"Supplies",IF(ISNUMBER(SEARCH("Concert",J2)),"Event",IF(ISNUMBER(SEARCH("Retreat",J2)),"Event",IF(ISNUMBER(SEARCH("Invitation",J2)),"Event",IF(ISNUMBER(SEARCH("Intern",J2)),"Staffing",IF(ISNUMBER(SEARCH("team",J2)),"Staffing",IF(ISNUMBER(SEARCH("GSuite",J2)),"Online expense",IF(ISNUMBER(SEARCH("Fund Raiser",J2)),"Event",IF(ISNUMBER(SEARCH("Fund Raiser",J2)),"Event",IF(ISNUMBER(SEARCH("screening",J2)),"Event",IF(ISNUMBER(SEARCH("POBOX",J2)),"Supplies",IF(ISNUMBER(SEARCH("ice",J2)),"Event",IF(ISNUMBER(SEARCH("logo",J2)),"Marketing",IF(ISNUMBER(SEARCH("Campaign Art",J2)),"Advertisment",IF(ISNUMBER(SEARCH("film",J2)),"Advertisment",IF(ISNUMBER(SEARCH("Employee",J2)),"Staffing",IF(ISNUMBER(SEARCH("evite",J2)),"Online expenses",IF(ISNUMBER(SEARCH("moving truck",J2)),"Supplies",IF(ISNUMBER(SEARCH("svcs",J2)),"Staffing",IF(ISNUMBER(SEARCH("compliance",J2)),"Staffing",IF(ISNUMBER(SEARCH("Transporation",J2)),"Travel",IF(ISNUMBER(SEARCH("Organizer",J2)),"Staffing",IF(ISNUMBER(SEARCH("festival",J2)),"Event",IF(ISNUMBER(SEARCH("Dancer",J2)),"Event",IF(ISNUMBER(SEARCH("Trip",J2)),"Travel",IF(ISNUMBER(SEARCH("social gathering",J2)),"Event",IF(ISNUMBER(SEARCH("beverage",J2)),"Event",IF(ISNUMBER(SEARCH("Gala",J2)),"Event",IF(ISNUMBER(SEARCH("malware",J2)),"Online expense",IF(ISNUMBER(SEARCH("Audio",J2)),"Advertisment",IF(ISNUMBER(SEARCH("Records Release Request",J2)),"Supplies", ""))
+
+
+Batch 9:
+
+Prorated second account -- zoom - online expense
+Professional Development -- research
+
+forum 
+
+
+=IF(ISNUMBER(SEARCH("Periodic Report",J2)),"Fee",IF(ISNUMBER(SEARCH("Error",J2)),"Error",IF(ISNUMBER(SEARCH("Double Entry",J2)),"Error",IF(ISNUMBER(SEARCH("Copier",J2)),"Supplies",IF(ISNUMBER(SEARCH("memorial",J2)),"Event",IF(ISNUMBER(SEARCH("watch",J2)),"Event",IF(ISNUMBER(SEARCH("null",J2)),"Advertisment",IF(ISNUMBER(SEARCH("charge",J2)),"Fee",IF(ISNUMBER(SEARCH("forum",J2)),"Event",IF(ISNUMBER(SEARCH("Get Out the Vote",J2)),"Staffing",IF(ISNUMBER(SEARCH("Empanadas",J2)),"Food",IF(ISNUMBER(SEARCH("Tacos",J2)),"Food",IF(ISNUMBER(SEARCH("Campaign Mananger",J2)),"Staffing",IF(ISNUMBER(SEARCH("Management",J2)),"Staffing",IF(ISNUMBER(SEARCH("PR",J2)),"Staffing",IF(ISNUMBER(SEARCH("CC Charges",J2)),"Fee",IF(ISNUMBER(SEARCH("Picture",J2)),"Marketing",IF(ISNUMBER(SEARCH("Concessions",J2)),"Food",IF(ISNUMBER(SEARCH("Counsultants",J2)),"Consultant",IF(ISNUMBER(SEARCH("Campaign coordination",J2)),"Staffing",IF(ISNUMBER(SEARCH("NGP Access",J2)),"Research",IF(ISNUMBER(SEARCH("Professional Development",J2)),"Research",IF(ISNUMBER(SEARCH("Avertising",J2)),"Advertisment",IF(ISNUMBER(SEARCH("Severence",J2)),"Staffing",IF(ISNUMBER(SEARCH("CPA",J2)),"Staffing",IF(ISNUMBER(SEARCH("Stipend",J2)),"Staffing",IF(ISNUMBER(SEARCH("City Auditor",J2)),"Donation",IF(ISNUMBER(SEARCH("Constant Contact",J2)),"Online expense",IF(ISNUMBER(SEARCH("SquareSpace",J2)),"Online expense",IF(ISNUMBER(SEARCH("penalty",J2)),"Fee",IF(ISNUMBER(SEARCH("Non Federal Candidate",J2)),"Donation",IF(ISNUMBER(SEARCH("Compensation",J2)),"Staffing",IF(ISNUMBER(SEARCH("Shipping",J2)),"Supplies",IF(ISNUMBER(SEARCH("door-to-door",J2)),"Staffing",IF(ISNUMBER(SEARCH("Calendy",J2)),"Online expense",IF(ISNUMBER(SEARCH("canopy",J2)),"Printing",IF(ISNUMBER(SEARCH("reimburse",J2)),"Staffing",IF(ISNUMBER(SEARCH("Copier Maintenance",J2)),"Supplies",IF(ISNUMBER(SEARCH("Non Federal Candidate",J2)),"Donation",IF(ISNUMBER(SEARCH("gear",J2)),"Merchandise",IF(ISNUMBER(SEARCH("Campaign Products",J2)),"Merchandise",IF(ISNUMBER(SEARCH("QR",J2)),"Online expense",IF(ISNUMBER(SEARCH("CC Proccessing",J2)),"Fee",IF(ISNUMBER(SEARCH("payments processing",J2)),"Fee",IF(ISNUMBER(SEARCH("Prorated second account",J2)),"Online expense",IF(ISNUMBER(SEARCH("bonus",J2)),"Staffing",IF(ISNUMBER(SEARCH("launch",J2)),"Event",IF(ISNUMBER(SEARCH("swag",J2)),"Merchandise",IF(ISNUMBER(SEARCH("CORA",J2)),"Supplies",IF(ISNUMBER(SEARCH("hard drive",J2)),"Supplies",IF(ISNUMBER(SEARCH("clipboard",J2)),"Supplies",IF(ISNUMBER(SEARCH("UPS",J2)),"Supplies",IF(ISNUMBER(SEARCH("Audio/Video Service",J2)),"Staffing",IF(ISNUMBER(SEARCH("Cleaning Service",J2)),"Staffing",IF(ISNUMBER(SEARCH("Professional Service",J2)),"Staffing",IF(ISNUMBER(SEARCH("Messaging",J2)),"Phone calls",IF(ISNUMBER(SEARCH("Hotspot",J2)),"Phone calls",IF(ISNUMBER(SEARCH("Service plan",J2)),"Phone calls",IF(ISNUMBER(SEARCH("Telecom service",J2)),"Phone calls",IF(ISNUMBER(SEARCH("Community Organization",J2)),"Staffing",IF(ISNUMBER(SEARCH("Record Release Request",J2)),"Supplies",""))))))))))
+
+
+Batch 10: 
+
+
+Contact List
+
+
+=IF(ISNUMBER(SEARCH("Framing",J2)),"Printing",IF(ISNUMBER(SEARCH("airbrush",J2)),"Supplies",IF(ISNUMBER(SEARCH("mannequin",J2)),"Supplies",IF(ISNUMBER(SEARCH("list",J2)),"Research",IF(ISNUMBER(SEARCH("Contact List",J2)),"Research",IF(ISNUMBER(SEARCH("ActBlue",J2)),"Fee",IF(ISNUMBER(SEARCH("list acquisition",J2)),"Research",IF(ISNUMBER(SEARCH("1099",J2)),"Staffing",IF(ISNUMBER(SEARCH("DNH",J2)),"Online expense",IF(ISNUMBER(SEARCH("registration",J2)),"Fee",IF(ISNUMBER(SEARCH("pozole",J2)),"Food",IF(ISNUMBER(SEARCH("Brunch",J2)),"Food",IF(ISNUMBER(SEARCH("Act Blue Account",J2)),"Fee",IF(ISNUMBER(SEARCH("Merchant Servicing",J2)),"Fee",IF(ISNUMBER(SEARCH("equipment",J2)),"Supplies",IF(ISNUMBER(SEARCH("correspondence",J2)),"Supplies",IF(ISNUMBER(SEARCH("Bond",J2)),"Event",IF(ISNUMBER(SEARCH("CPU",J2)),"Supplies",IF(ISNUMBER(SEARCH("CPU",J2)),"Supplies",IF(ISNUMBER(SEARCH("Lgbtqia",J2)),"Research",IF(ISNUMBER(SEARCH("VoteBuilder",J2)),"Research",IF(ISNUMBER(SEARCH("verify",J2)),"Fee",IF(ISNUMBER(SEARCH("flier",J2)),"Printing",IF(ISNUMBER(SEARCH("Night",J2)),"Event",IF(ISNUMBER(SEARCH("Vote Builder",J2)),"Research",IF(ISNUMBER(SEARCH("Uber",J2)),"Travel",IF(ISNUMBER(SEARCH("Exhibitor",J2)),"Event",IF(ISNUMBER(SEARCH("Clerk & Recorder",J2)),"Donation",IF(ISNUMBER(SEARCH("Mayor",J2)),"Donation",IF(ISNUMBER(SEARCH("Open Society Foundation",J2)),"Event",IF(ISNUMBER(SEARCH("Candidate for Mayor",J2)),"Donation",IF(ISNUMBER(SEARCH("verification",J2)),"Fee",IF(ISNUMBER(SEARCH("verify",J2)),"Fee",IF(ISNUMBER(SEARCH("Entity registration",J2)),"Fee",IF(ISNUMBER(SEARCH("Contact List",J2)),"Supplies",IF(ISNUMBER(SEARCH("Calendar",J2)),"Online expense",IF(ISNUMBER(SEARCH("organizing",J2)),"Staffing",IF(ISNUMBER(SEARCH("organizing",J2)),"Staffing",IF(ISNUMBER(SEARCH("door knocks",J2)),"Staffing",IF(ISNUMBER(SEARCH("door knocks",J2)),"Staffing",IF(ISNUMBER(SEARCH("tshity",J2)),"Merchandise",IF(ISNUMBER(SEARCH("dessert",J2)),"Food",IF(ISNUMBER(SEARCH("tamales",J2)),"Food",IF(ISNUMBER(SEARCH("Merchant Servicing",J2)),"Fee", "")))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

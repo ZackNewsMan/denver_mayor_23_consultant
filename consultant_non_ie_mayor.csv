@@ -1,0 +1,98 @@
+expenditure_date,expenditure_year,payee_first_name,payee_last_name,organization_name,amount,committee_name,office_sought,district,ballot_issue...10,purpose,purpose_cleaned,street_address_1,street_address_2,payee_city,payee_state,zip_code,fef_expenditure,electioneering_communication,independent_expenditure,candidate_name,ballot_issue...22,position,full_name
+1/31/2023,2023,Phoebe,Blessing,Leslie Herod,4500,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,1105 York St Apt 7,,Denver,CO,'80206',Yes,No,No,Leslie Herod,,,Phoebe Blessing
+1/31/2023,2023,Emily,Dowd,Gusto,4000,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,340 S Vine Street,,Denver,CO,'80209',No,No,No,Chris Hansen,,,Emily Dowd
+1/31/2023,2023,,,KBN Law LLC,7500,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,7830 W. Alameda Ave,,lakewood,CO,'80226',Yes,No,No,Leslie Herod,,,NA NA
+1/31/2023,2023,,,Switchboard Strategies,3350,Leslie for Mayor,Mayor,,,consulting,Consultant,1315 Monroe St.,,denver,CO,'80206',Yes,No,No,Leslie Herod,,,NA NA
+1/31/2023,2023,,,HMS Communications,6000,Leslie for Mayor,Mayor,,,consulting,Consultant,7406 S Pontiac Way,,Centennial,CO,'80112',Yes,No,No,Leslie Herod,,,NA NA
+1/31/2023,2023,,,HMS Communications,3000,Leslie for Mayor,Mayor,,,consulting,Consultant,7406 S Pontiac Way,,Centennial,CO,'80112',Yes,No,No,Leslie Herod,,,NA NA
+1/30/2023,2023,,,Gus Cantavero Film & Images,2400,Andy for Denver,Mayor,,,Digital Consulting,Consultant,8925 W Teton Pl,,Littleton,CO,'80128',No,No,No,Andre Rougeot,,,NA NA
+1/27/2023,2023,,,"JBK3 Strategies, LLC",8000,Kwame for Denver,Mayor,,,Compliance and Ballot Access Consulting,Consultant,3830 Quail Ct,,Wheat Ridge,CO,'80033',No,No,No,Kwame Spearman,,,NA NA
+1/27/2023,2023,,,GloKnows,2700,Kwame for Denver,Mayor,,,Media Consulting,Consultant,20499 E 53rd Ave,,Denver,CO,'80249',No,No,No,Kwame Spearman,,,NA NA
+1/25/2023,2023,,,LA Harris and Associates,1531.26,Valdez for Mayor,Mayor,,,"Invoice from our finance consultant for travel, stay, and meals in Jan",Consultant,100 Bleu Brook Dr,,Harrodsburg,KY,'40330',No,No,No,Alex Valdez,,,NA NA
+1/25/2023,2023,,,TPM,1962,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,1069 Glengary Pl,,Colorado Springs,CO,'80921',No,No,No,Chris Hansen,,,NA NA
+1/17/2023,2023,,,4Degrees Digital,11190.24,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,8980 Tennessee Ave,,Lakewood,CO,'80226',No,No,No,Chris Hansen,,,NA NA
+1/17/2023,2023,,,LeftWest,4800,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,"595 S Forest St,",#312,Denver,CO,'80246',No,No,No,Chris Hansen,,,NA NA
+1/16/2023,2023,Alvertis,Simmons,,5250,Leslie for Mayor,Mayor,,,consulting,Consultant,5222 E 33rd Ave,,denver,CO,'80207',No,No,No,Leslie Herod,,,Alvertis Simmons
+1/15/2023,2023,,,Greater Purpose Media,3275,Lisa for Denver,Mayor,,,Consulting services,Consultant,1428 Jasmine St,,Denver,CO,'80220',No,No,No,Lisa Calderon,,,NA NA
+1/12/2023,2023,Alex,Valdez,,3500,Valdez for Mayor,Mayor,,,Reimbursment for November Consultants Fundraising Services,Consultant,891 14th Street,Unit 4103,Denver,CO,'80202',No,No,No,Alex Valdez,,,Alex Valdez
+1/12/2023,2023,,,Foglamp,5000,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,1 Thomas Circle NW,,Washington,DC,'20005',No,No,No,Leslie Herod,,,NA NA
+1/12/2023,2023,,,Foglamp,2500,Leslie for Mayor,Mayor,,,consulting,Consultant,1 Thomas Circle NW,,Washington,DC,'20005',No,No,No,Leslie Herod,,,NA NA
+1/12/2023,2023,,,Foglamp,304.24,Leslie for Mayor,Mayor,,,consulting,Consultant,1 Thomas Circle NW,,Washington,DC,'20005',No,No,No,Leslie Herod,,,NA NA
+1/12/2023,2023,,,Foglamp,279.61,Leslie for Mayor,Mayor,,,consulting,Consultant,1 Thomas Circle NW,,Washington,DC,'20005',No,No,No,Leslie Herod,,,NA NA
+1/12/2023,2023,,,The Professional Communicators,3600,Ortega for Denver,Mayor,,,communications consulting,Consultant,11047 Glengate Circle,,Littleton,CO,'80130',No,No,No,Deborah Ortega,,,NA NA
+1/11/2023,2023,,,"Brownstein Hyatt Farber Schreck, LLP",2147.89,Andy for Denver,Mayor,,,Legal Consulting,Consultant,410 17th St,Fl 22,Denver,CO,'80202',No,No,No,Andre Rougeot,,,NA NA
+1/9/2023,2023,Tran,Wills,Not Employed,2500,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,2804 S Zurich Ct,,Denver,CO,'80236',Yes,No,No,Leslie Herod,,,Tran Wills
+1/9/2023,2023,,,Consume & Create,8100,Leslie for Mayor,Mayor,,,Design/Website Consulting services,Consultant,1070 Bannock St #200,,Denver,CO,'80204',Yes,No,No,Leslie Herod,,,NA NA
+1/9/2023,2023,,,FlexPoint Media INC,327,Andy for Denver,Mayor,,,Digital Consulting,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+1/9/2023,2023,,,"9Seven Consulting, LLC",1025.95,Andy for Denver,Mayor,,,Compliance Consulting,Consultant,PO Box 183,,Hudson,WI,'54016',No,No,No,Andre Rougeot,,,NA NA
+1/5/2023,2023,Rachel,Caine,,11000,Ortega for Denver,Mayor,,,campaign advisory consulting,Consultant,473 beacon street,,Boston,MA,'02115',Yes,No,No,Deborah Ortega,,,Rachel Caine
+1/5/2023,2023,Mason,Riley,,4318.18,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+1/5/2023,2023,Greg,Park,Drinko2,3000,Ortega for Denver,Mayor,,,campaign consulting services,Consultant,2669 King Street,,Denver,CO,'80211',Yes,No,No,Deborah Ortega,,,Greg Park
+1/5/2023,2023,Alvertis,Simmons,,5250,Leslie for Mayor,Mayor,,,Consulting,Consultant,5222 E 33rd Ave,,denver,CO,'80207',No,No,No,Leslie Herod,,,Alvertis Simmons
+1/5/2023,2023,,,Relentless Media LLC,7000,Andy for Denver,Mayor,,,Digital Consulting,Consultant,1429 Dolgner Pl,,Sanford,FL,'32771',No,No,No,Andre Rougeot,,,NA NA
+1/3/2023,2023,,,LeftWest,4800,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,"595 S Forest St,",#312,Denver,CO,'80246',No,No,No,Chris Hansen,,,NA NA
+1/2/2023,2023,,,NGP/VAN,1300,Chris Hansen for Denver Mayor,Mayor,,,Fundraising Consulting,Consultant,655 15th St NW,#650,Washington,DC,'20005',No,No,No,Chris Hansen,,,NA NA
+1/1/2023,2023,,,Upstream 303,5000,Leslie for Mayor,Mayor,,,consulting,Consultant,4325 Everett Street,,Wheat Ridge,CO,'80033',Yes,No,No,Leslie Herod,,,NA NA
+1/1/2023,2023,,,"CommonCentsConsulting, LLC",2000,Mike Johnston for Mayor,Mayor,,,Compliance Consulting,Consultant,PO Box 26430,,Tempe,AZ,'85285',No,No,No,Mike Johnston,,,NA NA
+1/1/2023,2023,,,"CommonCentsConsulting, LLC",3000,Mike Johnston for Mayor,Mayor,,,Compliance Consulting,Consultant,PO Box 26430,,Tempe,AZ,'85285',No,No,No,Mike Johnston,,,NA NA
+12/28/2022,2022,Brad,Evans,,1762.57,Anna for Denver Mayor,Mayor,,,Campaign Consulting,Consultant,3455 Ringsby Court,Suite 100,Denver,CO,'80216',No,No,No,Anna Burrell,,,Brad Evans
+12/22/2022,2022,,,Upstream 303,5000,Leslie for Mayor,Mayor,,,finance consulting,Consultant,4325 Everett Street,,Wheat Ridge,CO,'80033',Yes,No,No,Leslie Herod,,,NA NA
+12/22/2022,2022,,,TPM LLC,4000,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,1069 Glengary Pl,,Colorado Springs,CO,'80921',No,No,No,Chris Hansen,,,NA NA
+12/21/2022,2022,Tran,Wills,Not Employed,2500,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,2804 S Zurich Ct,,Denver,CO,'80236',Yes,No,No,Leslie Herod,,,Tran Wills
+12/19/2022,2022,,,KBN Law LLC,13000,Leslie for Mayor,Mayor,,,Legal and Consulting Services,Consultant,7830 W. Alameda Ave,,lakewood,CO,'80226',Yes,No,No,Leslie Herod,,,NA NA
+12/15/2022,2022,Emily,Dowd,,8000,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,340 S Vine Street,,Denver,CO,'80209',No,No,No,Chris Hansen,,,Emily Dowd
+12/15/2022,2022,Emily,Dowd,self-employed,1375,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,340 S Vine St,,Denver,CO,'80209',No,No,No,Chris Hansen,,,Emily Dowd
+12/15/2022,2022,Alvertis,Simmons,,5250,Leslie for Mayor,Mayor,,,consulting services,Consultant,5222 E 33rd Ave,,denver,CO,'80207',No,No,No,Leslie Herod,,,Alvertis Simmons
+12/15/2022,2022,,,LA Harris and Associates,1753,Valdez for Mayor,Mayor,,,"Invoice from our finance consultant for travel, stay, and meals.",Consultant,100 Bleu Brook Dr,,Harrodsburg,KY,'40330',No,No,No,Alex Valdez,,,NA NA
+12/13/2022,2022,Tamara,Boynton,,3700,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,3036 Perry Street,,Denver,CO,'80212',Yes,No,No,Deborah Ortega,,,Tamara Boynton
+12/12/2022,2022,,,Advanced Micro Targeting,12000,Andy for Denver,Mayor,,,General Consulting,Consultant,5757 Alpha Rd,Ste 501,Dallas,TX,'75240',No,No,No,Andre Rougeot,,,NA NA
+12/9/2022,2022,,,Jenn Beck Consulting,4600,Kelly for Mayor,Mayor,,,Social media consulting,Consultant,6285 West 45th Place,,Wheat Ridge,CO,'80033',No,No,No,Kelly Brough,,,NA NA
+12/7/2022,2022,Rachel,Feinberg,,7000,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,2990 Forest Street,,Denver,CO,'80207',Yes,No,No,Deborah Ortega,,,Rachel Feinberg
+12/7/2022,2022,,,Switchboard Strategies,4250,Leslie for Mayor,Mayor,,,communication consulting,Consultant,1315 Monroe St.,,denver,CO,'80206',Yes,No,No,Leslie Herod,,,NA NA
+12/5/2022,2022,Mason,Riley,,312.8,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+12/5/2022,2022,Mason,Riley,,2500,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+12/5/2022,2022,Mason,Riley,,83.13,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+12/5/2022,2022,,,Relentless Media LLC,7000,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,1429 Dolgner Pl,,Sanford,FL,'32771',No,No,No,Andre Rougeot,,,NA NA
+12/2/2022,2022,Emily,Dowd,self-employed,1000,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,340 S Vine St,,Denver,CO,'80209',No,No,No,Chris Hansen,,,Emily Dowd
+12/1/2022,2022,Greg,Park,,6000,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,2669 King Street,,Denver,CO,'80211',Yes,No,No,Deborah Ortega,,,Greg Park
+12/1/2022,2022,Emily,Dowd,self-employed,2000,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,340 S Vine St,,Denver,CO,'80209',No,No,No,Chris Hansen,,,Emily Dowd
+12/1/2022,2022,Alvertis,Simmons,,4500,Leslie for Mayor,Mayor,,,consulting services,Consultant,5222 E 33rd Ave,,denver,CO,'80207',No,No,No,Leslie Herod,,,Alvertis Simmons
+12/1/2022,2022,,,FlexPoint Media INC,204,Andy for Denver,Mayor,,,Digital Consulting,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+11/30/2022,2022,Emily,Dowd,self-employed,1000,Chris Hansen for Denver Mayor,Mayor,,,Consulting,Consultant,340 S Vine St,,Denver,CO,'80209',No,No,No,Chris Hansen,,,Emily Dowd
+11/21/2022,2022,Danny,Gallagher,,750,Anna for Denver Mayor,Mayor,,,Campaign Consulting,Consultant,5097 Meade Street,,Denver,CO,'80221',No,No,No,Anna Burrell,,,Danny Gallagher
+11/14/2022,2022,,,Upstream 303,5000,Leslie for Mayor,Mayor,,,consulting,Consultant,4325 Everett Street,,Wheat Ridge,CO,'80033',No,No,No,Leslie Herod,,,NA NA
+11/10/2022,2022,Shawn,Werner,Emily’s list,10000,Leslie for Mayor,Mayor,,,consulting services,Consultant,1275 N Clarkson St 17,,Denver,CO,'80218',No,No,No,Leslie Herod,,,Shawn Werner
+11/9/2022,2022,,,Jenn Beck Consulting,4300,Kelly for Mayor,Mayor,,,Social media consulting,Consultant,6285 West 45th Place,,Wheat Ridge,CO,'80033',No,No,No,Kelly Brough,,,NA NA
+11/7/2022,2022,,,Foglamp,5000,Leslie for Mayor,Mayor,,,Digital Consulting,Consultant,1 Thomas Circle NW,,Washington,DC,'20005',No,No,No,Leslie Herod,,,NA NA
+11/7/2022,2022,,,FlexPoint Media INC,84,Andy for Denver,Mayor,,,Digital Consulting,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+11/4/2022,2022,,,Foglamp,5000,Leslie for Mayor,Mayor,,,Digital Consulting,Consultant,1 Thomas Circle NW,,Washington,DC,'20005',No,No,No,Leslie Herod,,,NA NA
+11/2/2022,2022,,,Relentless Media LLC,7000,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,1429 Dolgner Pl,,Sanford,FL,'32771',No,No,No,Andre Rougeot,,,NA NA
+11/1/2022,2022,Mason,Riley,,2500,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+11/1/2022,2022,Mason,Riley,,278.12,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+10/21/2022,2022,Shawn,Werner,Emily’s list,5000,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,1275 N Clarkson St 17,,Denver,CO,'80218',No,No,No,Leslie Herod,,,Shawn Werner
+10/21/2022,2022,Brad,Evans,,750,Anna for Denver Mayor,Mayor,,,CONSULTING PAYMENT,Consultant,3455 Ringsby Court,Suite 100,Denver,CO,'80216',No,No,No,Anna Burrell,,,Brad Evans
+10/20/2022,2022,Tamara,Boynton,,5000,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,3036 Perry Street,,Denver,CO,'80212',No,No,No,Deborah Ortega,,,Tamara Boynton
+10/20/2022,2022,Rachel,Feinberg,,5000,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,2690 Forest Street,,Denver,CO,'80207',No,No,No,Deborah Ortega,,,Rachel Feinberg
+10/20/2022,2022,,,Amy Raaz Consulting,5000,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,18334 W 58TH Pl,APT 88,Golden,CO,'80403',No,No,No,Deborah Ortega,,,NA NA
+10/20/2022,2022,,,LKC Consulting,3000,Ortega for Denver,Mayor,,,Campaign Consulting,Consultant,820 S Vance St,Unit B,Lakewood,CO,'80226',No,No,No,Deborah Ortega,,,NA NA
+10/14/2022,2022,,,Upstream 303,9500,Leslie for Mayor,Mayor,,,consulting,Consultant,4325 Everett Street,,Wheat Ridge,CO,'80033',No,No,No,Leslie Herod,,,NA NA
+10/12/2022,2022,,,FlexPoint Media INC,500,Andy for Denver,Mayor,,,Digital Consulting,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+10/11/2022,2022,Shawn,Werner,Emily’s list,5000,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,1275 N Clarkson St 17,,Denver,CO,'80218',No,No,No,Leslie Herod,,,Shawn Werner
+10/11/2022,2022,,,HMS Communications,7500,Leslie for Mayor,Mayor,,,Communications Consulting,Consultant,7406 S Pontiac Way,,Centennial,CO,'80112',No,No,No,Leslie Herod,,,NA NA
+10/7/2022,2022,Alvertis,Simmons,,4000,Leslie for Mayor,Mayor,,,consulting services,Consultant,5222 E 33rd Ave,,denver,CO,'80207',No,No,No,Leslie Herod,,,Alvertis Simmons
+10/7/2022,2022,,,Relentless Media LLC,7000,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,1429 Dolgner Pl,,Sanford,FL,'32771',No,No,No,Andre Rougeot,,,NA NA
+10/3/2022,2022,Mason,Riley,,2500,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+10/3/2022,2022,Mason,Riley,,280.03,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+10/3/2022,2022,Mason,Riley,,15,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+10/3/2022,2022,Alvertis,Simmons,,2000,Leslie for Mayor,Mayor,,,Consulting Services,Consultant,5222 E 33rd Ave,,denver,CO,'80207',No,No,No,Leslie Herod,,,Alvertis Simmons
+10/3/2022,2022,,,FlexPoint Media INC,1204,Andy for Denver,Mayor,,,Digital Consulting,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+9/28/2022,2022,Kelly,Fleming,,500,Ortega for Denver,Mayor,,,Consulting Services,Consultant,1117 Pennsylvania St.,,Denver,CO,'80203',No,No,No,Deborah Ortega,,,Kelly Fleming
+9/9/2022,2022,,,FlexPoint Media INC,2451.94,Andy for Denver,Mayor,,,Digital Consulting and Website,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+9/2/2022,2022,Mason,Riley,,1547.4,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,PO Box 11180,,Denver,CO,'80211',No,No,No,Andre Rougeot,,,Mason Riley
+9/2/2022,2022,,,Relentless Media LLC,7000,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,1429 Dolgner Pl,,Sanford,FL,'32771',No,No,No,Andre Rougeot,,,NA NA
+8/29/2022,2022,Sandy,Partyka,,700,Hancock for Denver,Mayor,,,Bookkeeping Compliance Consulting,Consultant,PO Box 533,,Indian Hills,CO,'80454',No,No,No,Michael Hancock,,,Sandy Partyka
+8/17/2022,2022,,,"9Seven Consulting, LLC",420,Andy for Denver,Mayor,,,Compliance Consulting,Consultant,PO Box 183,,Hudson,WI,'54016',No,No,No,Andre Rougeot,,,NA NA
+8/8/2022,2022,,,Relentless Media LLC,7000,Andy for Denver,Mayor,,,Campaign Consulting,Consultant,1429 Dolgner Pl,,Sanford,FL,'32771',No,No,No,Andre Rougeot,,,NA NA
+8/2/2022,2022,,,FlexPoint Media INC,13000,Andy for Denver,Mayor,,,Digital Consulting,Consultant,14 Ealy Xing S,,New Albany,OH,'43054',No,No,No,Andre Rougeot,,,NA NA
+4/6/2022,2022,Sandy,Partyka,,700,Hancock for Denver,Mayor,,,Bookkeeping Consulting,Consultant,PO Box 533,,Indian Hills,CO,'80454',No,No,No,Michael Hancock,,,Sandy Partyka
+1/11/2022,2022,,,Sandy Partyka,3250,Hancock for Denver,Mayor,,,Consulting - Compliance/Bookkeeping,Consultant,PO Box 533,,Indian Hills,CO,'80454',No,No,No,Michael Hancock,,,NA NA
